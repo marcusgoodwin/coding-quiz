@@ -1,0 +1,73 @@
+body {
+    color:
+}
+
+.option-container {
+    display: flex;
+    margin-bottom: 0.75rem;
+    width: 100%;
+    border-radius: 3px;
+    background: #80ffeb;
+    font-size: 2.97rem;
+    min-width: 65rem;
+}
+
+.option-container {
+    cursor: pointer;
+}
+
+.option-prefix{
+    padding: 2rem 2.5rem;
+    color:#E10098
+}
+
+.option-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, green, lightgreen);
+}
+
+.wrong {
+    background: linear-gradient(32deg, red, orange);
+}
+
+/* progress bar */
+
+#progressText {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bar-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.progress-main-text {
+    text-align: center;
+}
+
+.progress-bar {
+    width: 25rem;
+    height: 2.5rem;
+    border: 0.25rem solid black;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#trackProgressFull {
+    height: 100%;
+    background: #80ffeb;
+    width: 0%
+}
+
+@media screen and (max-width: 767px) {
+    .choice-container {
+        min-width: 40rem;
+    
+}}
