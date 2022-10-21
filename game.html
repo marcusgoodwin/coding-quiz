@@ -12,10 +12,10 @@
     <div class="container">
         <div id="game" class="justify-center flex-column">
             <div id="progress">
+                <p id="progressText" class="bar-prefix">
+                    Questions
+                </p>
                 <div class="progress-bar">
-                    <p id="progressText" class="bar-prefix">
-                        Questions
-                    </p>
                     <div id="trackProgress">
                         <div id="trackProgressFull">                          
                         </div>
@@ -29,7 +29,25 @@
                         </h1>
                     </div>
                 </div>
+                <h1 id="question">What is the answer?</h1>
+                <div class="option-container">
+                    <p class="option-prefix">A</p>
+                    <p class="option-text" data-letter="A">Option A</p>
+                </div>
+                <div class="option-container">
+                    <p class="option-prefix">B</p>
+                    <p class="option-text" data-letter="B">Option B</p>
+                </div>
+                <div class="option-container">
+                    <p class="option-prefix">C</p>
+                    <p class="option-text" data-letter="C">Option C</p>
+                </div>
+                <div class="option-container">
+                    <p class="option-prefix">D</p>
+                    <p class="option-text" data-letter="D">Option D</p>
+                </div>
             </div>
     </div>
+    <script src="game.js"></script>
 </body>
 </html>
