@@ -1,6 +1,6 @@
-body {
-    color:
-}
+/* body {
+    color: #1f2628;
+} */
 
 .option-container {
     display: flex;
@@ -18,19 +18,30 @@ body {
 
 .option-prefix{
     padding: 2rem 2.5rem;
-    color:#E10098
+    /* color:#E10098 */
 }
 
 .option-text {
     padding: 2rem;
     width: 100%;
 }
+.option-container {
+    background-color: #80ffeb;
+    color: gray;
+}
+
+.option-container:hover {
+    cursor: pointer;
+    color:#CCCCFF;
+}
+
+/* color for btn */
 
 .correct {
     background: linear-gradient(32deg, green, lightgreen);
 }
 
-.wrong {
+.incorrect {
     background: linear-gradient(32deg, red, orange);
 }
 
