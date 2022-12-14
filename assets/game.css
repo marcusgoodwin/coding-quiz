@@ -1,15 +1,11 @@
-/* body {
-    color: #1f2628;
-} */
-
 .option-container {
     display: flex;
     margin-bottom: 0.75rem;
     width: 100%;
     border-radius: 3px;
     background: #80ffeb;
-    font-size: 2.97rem;
-    min-width: 65rem;
+    font-size: 1.97rem;
+    min-width: 23rem;
 }
 
 .option-container {
@@ -17,7 +13,7 @@
 }
 
 .option-prefix{
-    padding: 2rem 2.5rem;
+    padding: 2rem 5rem;
     /* color:#E10098 */
 }
 
@@ -53,29 +49,15 @@
 }
 
 
-.bar-prefix{
+/* .bar-prefix{
     text-align: center;
     font-size: 2rem;
-}
+} */
 
 .progress-main-text {
     text-align: center;
 }
 
-.progress-bar {
-    width: 25rem;
-    height: 2.5rem;
-    border: 0.25rem solid black;
-    margin-top: 2rem;
-    border-radius: 50px;
-    overflow: hidden;
-}
-
-#trackProgressFull {
-    height: 100%;
-    background: #80ffeb;
-    width: 0%
-}
 
 @media screen and (max-width: 767px) {
     .choice-container {

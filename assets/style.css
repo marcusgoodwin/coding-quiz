@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 5.75rem;
+    font-size: 3.8rem;
     margin-bottom: 5.75rem;
 }
 
@@ -62,8 +62,8 @@ h2 {
 
 .btn {
     font-size: 2.75rem;
-    padding: 1.75rem 0;
-    width: 45rem;
+    padding: 1.5rem 0;
+    width: 23rem;
     text-align: center;
     margin-bottom: .90rem;
     text-decoration: none;
@@ -86,7 +86,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
-    font-size: 3.75rem;
+    font-size: 1.75rem;
 }
 
 input {
@@ -114,4 +114,15 @@ input::placeholder {
 
 #submitScoreBtn {
     border: none;   
+}
+
+@media screen and (min-width: 768px) {
+    .justify-content .flex-column {
+        font-size: 2.15rem;
+        align-items: center;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
 }

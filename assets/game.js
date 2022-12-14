@@ -96,7 +96,7 @@ getNewQuestions = () => {
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-    trackProgressFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%;`
+    trackProgressFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
     
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -104,7 +104,7 @@ getNewQuestions = () => {
 
 console.log(currentQuestion, questionIndex);
 
-    option.forEach(choice =>{
+    option.forEach(choice => {
         const number = choice.dataset['letter'];
         choice.innerText = currentQuestion['option' + number]
     })
