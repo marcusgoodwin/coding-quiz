@@ -8,6 +8,10 @@ This quiz is intended to be used as a quick knowledge check on some fun facts re
 
 The quiz uses JavaScript to navigate through questions, and submitting answers! It also keeps track of score, and allows the user to input their name at the end of it! I had some issues getting the GitHub page to cooperate with me which explains why it is so late!
 
+# Deployment
+
+https://marcusgoodwin.github.io/coding-quiz/
+
 # Screenshots
 
 
